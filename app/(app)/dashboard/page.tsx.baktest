@@ -1,0 +1,13 @@
+'use client';
+import { Users } from 'lucide-react';
+
+export default function Test() {
+  function getIcon() {
+    return Users;
+  }
+  return (
+    <div className="space-y-8">
+      <Users className="h-4 w-4" />
+    </div>
+  );
+}
